@@ -10,7 +10,6 @@ function Header() {
   return (
     <header>
       <div className={styles.logo}>
-        <img width={80} height={80} src="/img/movie.png" alt="logo" />
         <h1>Movies Hub</h1>
       </div>
       <nav>

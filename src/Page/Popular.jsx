@@ -18,10 +18,9 @@ function Popular() {
     setContent(data.results);
     setNumOfPage(data.total_pages);
   };
-
   React.useEffect(() => {
     fetchData();
-  }, [page]);
+  }, [ ,page]);
 
   return (
     <>
