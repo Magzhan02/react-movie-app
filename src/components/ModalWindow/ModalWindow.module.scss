@@ -1,0 +1,81 @@
+.over {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin: auto;
+    align-items: center;
+    z-index: 99;
+    padding: 101px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-shrink: 0
+  }
+
+
+.wrapper {
+  background-color: rgb(29, 32, 34);
+  color: #f3f3f3;
+
+  .content {
+    padding: 20px;
+    width: 600px;
+    max-width: 100%;
+
+    img {
+      max-width: 100%;
+    }
+
+    .info {
+      h2 {
+        text-align: center;
+        margin: 5px;
+        padding: 0;
+      }
+
+      .overview {
+
+        p {
+          border: 1px solid #f3f3f3;
+          border-radius: 10px;
+          max-height: 200px;
+          overflow-y: scroll;
+          padding: 10px;
+        }
+
+        p::-webkit-scrollbar {
+          display: none;
+        }
+
+        h3 {
+          margin: 0 0 5px 0;
+          padding: 0;
+        }
+      }
+
+      span {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        padding-top: 5px;
+      }
+    }
+
+    .trailer {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      svg{
+        position: relative;
+        bottom: 2.5px;
+        left: 10px;
+      }
+    }
+  }
+}
