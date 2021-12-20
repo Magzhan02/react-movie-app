@@ -14,4 +14,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [TMDB](https://www.themoviedb.org/documentation/api)
 # GitHub Pages 
-link: https://magzhan02.github.io/react-movie-app/
+link: https://magzhan02.github.io/react-movies-app/
