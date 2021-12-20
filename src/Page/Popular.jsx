@@ -20,7 +20,10 @@ function Popular() {
   };
   React.useEffect(() => {
     fetchData();
-  }, [ ,page]);
+  }, []);
+  React.useEffect(() => {
+    fetchData();
+  }, [page]);
 
   return (
     <>
